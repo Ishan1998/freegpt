@@ -1,38 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #282c34; 
+  color: pink;
+}
+
 .container {
   display: flex;
-
-  
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
-.left {
-  height: 100vh;
-  width: 20%;
-  flex: 1; /* Takes up available space */
-  margin-right: auto;
-  color: pink;
-  background-color: black;
-  text-align: center;
-}
-
-.right {
-  height: 100vh;
-  width: 20%;
-  flex: 1; /* Takes up available space */
-  margin-left: auto;
-  color: pink;
-  background-color: black;
-  text-align: center;
-}
-
-.center{
-  background-color: #282c34;
-  width: 60%;
-  text-align: center;
-  color: white;
-
+h1, p {
+  margin: 0;
 }
 
 .logo {
+  margin-top: 40px;
   height: 10vmin;
   pointer-events: none;
 }
@@ -52,24 +39,42 @@
   }
 }
 
-textarea {
+.ai-response {
+  margin-top: 50px;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: center;
+  white-space: pre-wrap;
+}
+
+.input {
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textarea-container {
+  margin-top: 50px;
   position: relative;
+  width: 50%;
+}
+
+textarea {
+  width: calc(100% - 30px); 
+  box-sizing: border-box;
   background-color: black;
-  margin-top: 50%;
   border-radius: 30px;
   color: white;
   padding: 15px;
   font-size: auto;
   font-weight: 1000;
   resize: none;
-  width: 100%;
-  box-sizing: border-box;
+  margin-bottom: 15px;
 }
 
 button {
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
   background-color: transparent;
   color: white;
   border: none;
@@ -78,19 +83,15 @@ button {
   border-radius: 10px;
   font-size: 16px;
   transition: background-color 0.3s ease-in-out;
-  margin-right: 20%;
-  margin-bottom: 15px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
 }
 
 button::before {
-  content: '🢁'; /* Right arrow HTML entity */
-  margin-right: 8px; /* Adjust spacing between text and arrow */
+  content: '🢁'; 
 }
 
 button:hover {
   background-color: grey;
 }
-
-
-
-
