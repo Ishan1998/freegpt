@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/freegpt/static/css/main.b9df1796.css",
+    "main.js": "/freegpt/static/js/main.7455fbe4.js",
+    "static/js/787.b6bed4c8.chunk.js": "/freegpt/static/js/787.b6bed4c8.chunk.js",
+    "static/media/logo.png": "/freegpt/static/media/logo.f6a128a2acd2b844f2b7.png",
+    "index.html": "/freegpt/index.html",
+    "main.b9df1796.css.map": "/freegpt/static/css/main.b9df1796.css.map",
+    "main.7455fbe4.js.map": "/freegpt/static/js/main.7455fbe4.js.map",
+    "787.b6bed4c8.chunk.js.map": "/freegpt/static/js/787.b6bed4c8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b9df1796.css",
+    "static/js/main.7455fbe4.js"
+  ]
+}
